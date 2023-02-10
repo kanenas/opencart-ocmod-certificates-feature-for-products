@@ -1,5 +1,5 @@
 -- Check if there is a different TABLE DB_PREFIX
-CREATE TABLE `oc3xtbl_product_certificate` (
+CREATE TABLE `oc_product_certificate` (
  `product_certificate_id` int(11) NOT NULL AUTO_INCREMENT,
  `product_id` int(11) NOT NULL,
  `certificate` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
